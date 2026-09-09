@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #0b0b12;
+  color: white;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.tag {
+  letter-spacing: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 90px);
+  line-height: 0.95;
+  margin: 20px 0;
+}
+
+h1 span {
+  opacity: 0.55;
+}
+
+.subtitle {
+  max-width: 620px;
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.7;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 24px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#message {
+  min-height: 24px;
+  margin-top: 18px;
+}
